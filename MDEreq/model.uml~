@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GRM="http://www.eclipse.org/papyrus/GRM/1" xmlns:HLAM="http://www.eclipse.org/papyrus/HLAM/1" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:Time="http://www.eclipse.org/papyrus/Time/1" xmlns:Variables="http://www.eclipse.org/papyrus/Variables/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/GRM/1 http://www.eclipse.org/papyrus/MARTE/1#//GRM http://www.eclipse.org/papyrus/HLAM/1 http://www.eclipse.org/papyrus/MARTE/1#//HLAM http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements http://www.eclipse.org/papyrus/Time/1 http://www.eclipse.org/papyrus/MARTE/1#//Time http://www.eclipse.org/papyrus/Variables/1 http://www.eclipse.org/papyrus/MARTE/1#//Variables">
+  <uml:Model xmi:id="_rXe_AP3LEeGsrZs0LXKmlA" name="SysMLmodel">
+    <ownedComment xmi:id="_nUSaEBF5EeK1CJ8GmJ_i_w" annotatedElement="_pg1UgP3NEeGsrZs0LXKmlA">
+      <body> {nature = denso, 
+unitType = TimeUnitKind,
+getTime = currentType,
+unit=ms}
+</body>
+    </ownedComment>
+    <packageImport xmi:id="_ZqgKcP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_zaC5cAPHEdyeNfbOYuD9pg"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqgKcf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_U_GAoAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqgKcv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_WStkoAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqgxgP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_XVWGUAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqgxgf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ar8OsAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqgxgv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_-wEewECLEd6UTJZnztgOLw"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqgxg_3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_yNSZIAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqgxhP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_aMhZsBJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqgxhf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_bmL7UBJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqgxhv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_dG2c0BJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqgxh_3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ja8REBJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYkP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_gHI-ABJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYkf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_hst0sBJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYkv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ZJjPoEIbEd6dmI2dd6jVFQ"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYk_3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_P80EcBJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYlP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_uAf6gBJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYlf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_vrbyUBJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYlv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_R7sL8BJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqhYl_3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_WGZ44BJwEdygQ5HMNSpiZw"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqh_oP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_2dtsgAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqh_of3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_-1fcUBJdEdy3Td9UhuLFPg"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqh_ov3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_A_vtYBJeEdy3Td9UhuLFPg"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqh_o_3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_Cf874BJeEdy3Td9UhuLFPg"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqh_pP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_EIfnABJeEdy3Td9UhuLFPg"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqh_pf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_3VS0wAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqh_pv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_YgAioAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqimsP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_4bV20APMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqimsf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_5ZCOIAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqimsv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_6c2bkAPMEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqims_3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_DIIJoAPNEdyuUt-4qHuVvQ"/>
+    </packageImport>
+    <packageImport xmi:id="_ZqimtP3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9FdqwA-MEdyLh7muGbCqMw"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqimtf3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9UgzYA-MEdyLh7muGbCqMw"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqimtv3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_jg_Z8PfhEd-f4r3MXmUB9g"/>
+    </packageImport>
+    <packageImport xmi:id="_Zqimt_3MEeGsrZs0LXKmlA">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_CHiIYA-LEdyNj8xzjk-DoA"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2aBfYP3LEeGsrZs0LXKmlA" name="controle_ABS">
+      <ownedAttribute xmi:id="_DVvdAP3OEeGsrZs0LXKmlA" name="atuador" type="_tJ00cP3NEeGsrZs0LXKmlA" aggregation="composite" association="_DVwEEP3OEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DVvdAv3OEeGsrZs0LXKmlA" value="4"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DVvdAf3OEeGsrZs0LXKmlA" name="" value="4"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_D51BgP3OEeGsrZs0LXKmlA" name="sensor" type="_nJOj8P3NEeGsrZs0LXKmlA" association="_D51okv3OEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D51okf3OEeGsrZs0LXKmlA" value="4"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D51okP3OEeGsrZs0LXKmlA" value="4"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_BOJMcP3QEeGsrZs0LXKmlA" name="inicia"/>
+      <ownedOperation xmi:id="_gL4P8P3QEeGsrZs0LXKmlA" name="calculafrenagem"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nJOj8P3NEeGsrZs0LXKmlA" name="sensor">
+      <ownedAttribute xmi:id="_YEEKkBF0EeK1CJ8GmJ_i_w" name="ind_velocidade">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_zjOjgBF2EeK1CJ8GmJ_i_w" name="roda" type="_wmnrcP3NEeGsrZs0LXKmlA" association="_zjPKkBF2EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zjOjghF2EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zjOjgRF2EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_P3pMcP3QEeGsrZs0LXKmlA" name="aquisicaoSinal"/>
+      <ownedOperation xmi:id="_I-VFEBF1EeK1CJ8GmJ_i_w" name="get_ind_velocidade"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pg1UgP3NEeGsrZs0LXKmlA" name="monitorar" useCase="_4kdwEBI3EeKVYLKlaz4YtQ">
+      <ownedAttribute xmi:id="_ORmDkBF3EeK1CJ8GmJ_i_w" name="current_time">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_beo90AnpEdy9WM11hWri2g"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Stereotype" xmi:id="__Ltu0BMREeKnTv-cXHxFeQ" name="ms"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tJ00cP3NEeGsrZs0LXKmlA" name="atuador">
+      <ownedAttribute xmi:id="_k7GKkBF4EeK1CJ8GmJ_i_w" name="valor_pressao">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_Ef4qAP3QEeGsrZs0LXKmlA" name="acionaPressao"/>
+      <ownedOperation xmi:id="_BP-OEBF8EeK1CJ8GmJ_i_w" name="set_pressao"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wY4xcP3NEeGsrZs0LXKmlA" name="Pedal">
+      <ownedAttribute xmi:id="_Jg8bAP3OEeGsrZs0LXKmlA" name="idealClock" type="_G-WicP3OEeGsrZs0LXKmlA" association="_Jg9CEP3OEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jg8bAv3OEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jg8bAf3OEeGsrZs0LXKmlA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_518hwf3NEeGsrZs0LXKmlA" name="controle_ABS" type="_2aBfYP3LEeGsrZs0LXKmlA" association="_518hwP3NEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_518hw_3NEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_518hwv3NEeGsrZs0LXKmlA" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_9XHQgP3PEeGsrZs0LXKmlA" name="acionado"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wmnrcP3NEeGsrZs0LXKmlA" name="roda">
+      <ownedAttribute xmi:id="_6xWaEf3NEeGsrZs0LXKmlA" name="controle_ABS" type="_tJ00cP3NEeGsrZs0LXKmlA" association="_6xWaEP3NEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6xWaE_3NEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6xWaEv3NEeGsrZs0LXKmlA" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_518hwP3NEeGsrZs0LXKmlA" name="controle_ABS_pedal_1" memberEnd="_518hwf3NEeGsrZs0LXKmlA _5176sP3NEeGsrZs0LXKmlA">
+      <ownedEnd xmi:id="_5176sP3NEeGsrZs0LXKmlA" name="pedal" type="_wY4xcP3NEeGsrZs0LXKmlA" aggregation="composite" association="_518hwP3NEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5176sv3NEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5176sf3NEeGsrZs0LXKmlA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6xWaEP3NEeGsrZs0LXKmlA" name="controle_ABS_roda_1" memberEnd="_6xWaEf3NEeGsrZs0LXKmlA _6xVzAP3NEeGsrZs0LXKmlA">
+      <ownedEnd xmi:id="_6xVzAP3NEeGsrZs0LXKmlA" name="roda" type="_wmnrcP3NEeGsrZs0LXKmlA" aggregation="composite" association="_6xWaEP3NEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6xVzAv3NEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6xVzAf3NEeGsrZs0LXKmlA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DVwEEP3OEeGsrZs0LXKmlA" name="controle_ABS_atuador_1" memberEnd="_DVwEEf3OEeGsrZs0LXKmlA _DVvdAP3OEeGsrZs0LXKmlA">
+      <ownedEnd xmi:id="_DVwEEf3OEeGsrZs0LXKmlA" name="controle_ABS" type="_2aBfYP3LEeGsrZs0LXKmlA" association="_DVwEEP3OEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DVwEE_3OEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DVwEEv3OEeGsrZs0LXKmlA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_D51okv3OEeGsrZs0LXKmlA" name="controle_ABS_sensor_1" memberEnd="_D51ok_3OEeGsrZs0LXKmlA _D51BgP3OEeGsrZs0LXKmlA">
+      <ownedEnd xmi:id="_D51ok_3OEeGsrZs0LXKmlA" name="controle_ABS" type="_2aBfYP3LEeGsrZs0LXKmlA" aggregation="composite" association="_D51okv3OEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D51olf3OEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D51olP3OEeGsrZs0LXKmlA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_G-WicP3OEeGsrZs0LXKmlA" name="idealClock"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Jg9CEP3OEeGsrZs0LXKmlA" name="pedal_idealClock_1" memberEnd="_Jg9CEf3OEeGsrZs0LXKmlA _Jg8bAP3OEeGsrZs0LXKmlA">
+      <ownedEnd xmi:id="_Jg9CEf3OEeGsrZs0LXKmlA" name="pedal" type="_wY4xcP3NEeGsrZs0LXKmlA" association="_Jg9CEP3OEeGsrZs0LXKmlA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jg9CE_3OEeGsrZs0LXKmlA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jg9CEv3OEeGsrZs0LXKmlA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_PGobsP3PEeGsrZs0LXKmlA" name="Diag_calculaABS">
+      <ownedComment xmi:id="_1vovgP3UEeGsrZs0LXKmlA" annotatedElement="_Zqimt_3MEeGsrZs0LXKmlA _ZqgKcv3MEeGsrZs0LXKmlA _RDRKsP3TEeGsrZs0LXKmlA">
+        <body> &lt;&lt;timedConstraint>>
+{ (2,ms)&lt;=(B-A) &lt; (5,ms)}</body>
+      </ownedComment>
+      <ownedComment xmi:id="_YpgKAP3YEeGsrZs0LXKmlA" annotatedElement="__zzYkP3TEeGsrZs0LXKmlA">
+        <body>&lt;&lt;TimedConstraint>>
+{ (2,ms)&lt;=(D-C) &lt; (3,ms)}</body>
+      </ownedComment>
+      <ownedComment xmi:id="_fCgeAP3ZEeGsrZs0LXKmlA">
+        <body> &lt;&lt;TimedConstraint>>
+{(E) &lt;= (0.5,ms)}</body>
+      </ownedComment>
+      <ownedRule xmi:type="uml:TimeConstraint" xmi:id="__9MogBGEEeK1CJ8GmJ_i_w" name="time" constrainedElement="_DbqFsBGAEeK1CJ8GmJ_i_w">
+        <specification xmi:type="uml:TimeInterval" xmi:id="_pCZl0BI2EeKVYLKlaz4YtQ" name="TimeInterval" max="__9RhARGEEeK1CJ8GmJ_i_w" min="__9RhABGEEeK1CJ8GmJ_i_w"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_6TCQIBGGEeK1CJ8GmJ_i_w" name="TimeConstraint0" constrainedElement="_HAfeYBGAEeK1CJ8GmJ_i_w">
+        <specification xmi:type="uml:TimeInterval" xmi:id="_6TC3MBGGEeK1CJ8GmJ_i_w" name="TimeInterval" max="_6TDeQRGGEeK1CJ8GmJ_i_w" min="_6TDeQBGGEeK1CJ8GmJ_i_w"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_kVlFwBMEEeKnTv-cXHxFeQ" name="DurationConstraint" visibility="package" constrainedElement="_ConQYBJKEeKVYLKlaz4YtQ _-kTGYRJJEeKVYLKlaz4YtQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_kVls0BMEEeKnTv-cXHxFeQ" name="DurationInterval" max="_kVmT4RMEEeKnTv-cXHxFeQ" min="_kVmT4BMEEeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_SdemUBMFEeKnTv-cXHxFeQ" name="DurationConstraint0" constrainedElement="_NhhToBJKEeKVYLKlaz4YtQ _Nhh6sRJKEeKVYLKlaz4YtQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_SdfNYBMFEeKnTv-cXHxFeQ" name="DurationInterval" max="_SdgbgBMFEeKnTv-cXHxFeQ" min="_Sdf0cBMFEeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_2mpM4BMFEeKnTv-cXHxFeQ" name="DurationConstraint1" visibility="package" constrainedElement="_CopFkBJKEeKVYLKlaz4YtQ __WyTQRJJEeKVYLKlaz4YtQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_2mpM4RMFEeKnTv-cXHxFeQ" name="DurationInterval" max="_2mqbARMFEeKnTv-cXHxFeQ" min="_2mqbABMFEeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_gK-pYBMLEeKnTv-cXHxFeQ" name="DurationConstraint2" constrainedElement="_Hhm_oBJKEeKVYLKlaz4YtQ _HhnmsRJKEeKVYLKlaz4YtQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_gK-pYRMLEeKnTv-cXHxFeQ" name="DurationInterval" max="_gK_3gRMLEeKnTv-cXHxFeQ" min="_gK_3gBMLEeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_qm7q4BMLEeKnTv-cXHxFeQ" name="DurationConstraint3" constrainedElement="_PmIPsBJKEeKVYLKlaz4YtQ _PmJd0RJKEeKVYLKlaz4YtQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_qm7q4RMLEeKnTv-cXHxFeQ" name="DurationInterval" max="_qm85ARMLEeKnTv-cXHxFeQ" min="_qm85ABMLEeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_xTwV8BMQEeKnTv-cXHxFeQ" name="DurationConstraint4" visibility="private" constrainedElement="_ts_VkBJKEeKVYLKlaz4YtQ _ttAjsRJKEeKVYLKlaz4YtQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_xTwV8RMQEeKnTv-cXHxFeQ" name="DurationInterval" type="__Ltu0BMREeKnTv-cXHxFeQ" max="_xTxkERMQEeKnTv-cXHxFeQ" min="_xTxkEBMQEeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_GkAAcBMREeKnTv-cXHxFeQ" name="DurationConstraint5" visibility="package" constrainedElement="_E2VkwBMREeKnTv-cXHxFeQ _E2WL0RMREeKnTv-cXHxFeQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_6qtDkBe4EeK0Hvo8SdUMPg" name="DurationInterval" type="__Ltu0BMREeKnTv-cXHxFeQ" max="_GkBOkRMREeKnTv-cXHxFeQ" min="_GkBOkBMREeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_P3oH8BMREeKnTv-cXHxFeQ" name="DurationConstraint6" constrainedElement="_MlGnQBMREeKnTv-cXHxFeQ _MlK4sBMREeKnTv-cXHxFeQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_P3oH8RMREeKnTv-cXHxFeQ" name="DurationInterval" max="_P3pWERMREeKnTv-cXHxFeQ" min="_P3pWEBMREeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_SI94cBMREeKnTv-cXHxFeQ" name="DurationConstraint7" constrainedElement="_NL2eMBMREeKnTv-cXHxFeQ _NL3FQRMREeKnTv-cXHxFeQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_SI94cRMREeKnTv-cXHxFeQ" name="DurationInterval" max="_SI_GkRMREeKnTv-cXHxFeQ" min="_SI_GkBMREeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_TNBWcBMREeKnTv-cXHxFeQ" name="DurationConstraint8" constrainedElement="_OBVUsBMREeKnTv-cXHxFeQ _OBWi0RMREeKnTv-cXHxFeQ">
+        <specification xmi:type="uml:DurationInterval" xmi:id="_TNBWcRMREeKnTv-cXHxFeQ" name="DurationInterval" max="_TNCkkBMREeKnTv-cXHxFeQ" min="_TNB9gBMREeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_wtanUBMTEeKnTv-cXHxFeQ" name="TimeConstraint1" constrainedElement="_E2VkwBMREeKnTv-cXHxFeQ">
+        <specification xmi:type="uml:TimeInterval" xmi:id="_6qtDkRe4EeK0Hvo8SdUMPg" name="TimeInterval" type="_pg1UgP3NEeGsrZs0LXKmlA" max="_wtb1cRMTEeKnTv-cXHxFeQ" min="_wtb1cBMTEeKnTv-cXHxFeQ"/>
+      </ownedRule>
+      <ownedRule xmi:id="_Avtw0BMVEeKnTv-cXHxFeQ" name="tempo de resposta" constrainedElement="_CokNEBJKEeKVYLKlaz4YtQ _l214sBJKEeKVYLKlaz4YtQ">
+        <specification xmi:type="uml:LiteralString" xmi:id="_Avtw0RMVEeKnTv-cXHxFeQ" name="tempo de saida" value="0,5"/>
+      </ownedRule>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_x2JAUP3SEeGsrZs0LXKmlA" name="ActionExecSpecStart" covered="_PM6X8P3REeGsrZs0LXKmlA" execution="_x2JnYP3SEeGsrZs0LXKmlA" event="_x2EH0P3SEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_-kR4QBJJEeKVYLKlaz4YtQ" name="ActionExecSpec6Start" covered="_ty4-sBJJEeKVYLKlaz4YtQ" execution="_-kTGYBJJEeKVYLKlaz4YtQ" event="_-kM_wBJJEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="__WxFIBJJEeKVYLKlaz4YtQ" name="ActionExecSpec7Start" covered="_5uSZsBJJEeKVYLKlaz4YtQ" execution="__WyTQBJJEeKVYLKlaz4YtQ" event="__WszsBJJEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_E2VkwBMREeKnTv-cXHxFeQ" name="ActionExecSpec2Start" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_E2WL0BMREeKnTv-cXHxFeQ" event="_E2R6YBMREeKnTv-cXHxFeQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vKqcEP3TEeGsrZs0LXKmlA" name="aquisicaoSinal_MessageRecv" covered="__Ze7cP3QEeGsrZs0LXKmlA" event="_vKpN8P3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PmIPsBJKEeKVYLKlaz4YtQ" name="ActionExecSpec10Start" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" execution="_PmJd0BJKEeKVYLKlaz4YtQ" event="_PmDXMBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_nx07kBGCEeK1CJ8GmJ_i_w" name="ActionExecSpec4Start" covered="_Hid4IBGCEeK1CJ8GmJ_i_w" execution="_nx2JsBGCEeK1CJ8GmJ_i_w" event="_nxwqIBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_x2JnYP3SEeGsrZs0LXKmlA" name="ActionExecSpec" covered="_PM6X8P3REeGsrZs0LXKmlA" finish="_x2JnYf3SEeGsrZs0LXKmlA" start="_x2JAUP3SEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_nx2JsBGCEeK1CJ8GmJ_i_w" name="ActionExecSpec4" covered="_Hid4IBGCEeK1CJ8GmJ_i_w" finish="_nx2JsRGCEeK1CJ8GmJ_i_w" start="_nx07kBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="__WyTQBJJEeKVYLKlaz4YtQ" name="ActionExecSpec7" covered="_5uSZsBJJEeKVYLKlaz4YtQ" finish="__WyTQRJJEeKVYLKlaz4YtQ" start="__WxFIBJJEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_vLneUP3TEeGsrZs0LXKmlA" name="ActionExecSpec3Start" covered="__Ze7cP3QEeGsrZs0LXKmlA" execution="_vLneUf3TEeGsrZs0LXKmlA" event="_vLkbAP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_-kTGYBJJEeKVYLKlaz4YtQ" name="execucao_ABS" covered="_ty4-sBJJEeKVYLKlaz4YtQ" finish="_-kTGYRJJEeKVYLKlaz4YtQ" start="_-kR4QBJJEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_E2WL0BMREeKnTv-cXHxFeQ" name="ActionExecSpec2" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" finish="_E2WL0RMREeKnTv-cXHxFeQ" start="_E2VkwBMREeKnTv-cXHxFeQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_PmJd0BJKEeKVYLKlaz4YtQ" name="ActionExecSpec10" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" finish="_PmJd0RJKEeKVYLKlaz4YtQ" start="_PmIPsBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ConQYBJKEeKVYLKlaz4YtQ" name="get_ind_velocidade_Message0Send" covered="_ty4-sBJJEeKVYLKlaz4YtQ" message="_CokNEBJKEeKVYLKlaz4YtQ" event="_ColbMBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:CombinedFragment" xmi:id="_e7oeUBF_EeK1CJ8GmJ_i_w" name="" covered="_KGTgIBF9EeK1CJ8GmJ_i_w _vkDekBF-EeK1CJ8GmJ_i_w _26e5kBF-EeK1CJ8GmJ_i_w" interactionOperator="par">
+        <operand xmi:id="_e7svwBF_EeK1CJ8GmJ_i_w" name="InteractionOperand" covered="_KGTgIBF9EeK1CJ8GmJ_i_w _vkDekBF-EeK1CJ8GmJ_i_w _26e5kBF-EeK1CJ8GmJ_i_w">
+          <guard xmi:id="_SaJ98BGDEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9K22ABF_EeK1CJ8GmJ_i_w" name="ActionExecSpecStart" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_9K4EIBF_EeK1CJ8GmJ_i_w" event="_9KzLoBF_EeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9xLPIBF_EeK1CJ8GmJ_i_w" name="BehaviorExecSpecStart" covered="_26e5kBF-EeK1CJ8GmJ_i_w" execution="_9xL2MBF_EeK1CJ8GmJ_i_w" event="_9xHkwBF_EeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_9K4EIBF_EeK1CJ8GmJ_i_w" name="ActionExecSpec" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" finish="_9K4EIRF_EeK1CJ8GmJ_i_w" start="_9K22ABF_EeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_9xL2MBF_EeK1CJ8GmJ_i_w" name="BehaviorExecSpec" covered="_26e5kBF-EeK1CJ8GmJ_i_w" finish="_9xL2MRF_EeK1CJ8GmJ_i_w" start="_9xLPIBF_EeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DbqFsBGAEeK1CJ8GmJ_i_w" name="get_ind_velocidade_MessageSend" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" message="_DbnCYBGAEeK1CJ8GmJ_i_w" event="_DboQgBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G_NE8BGAEeK1CJ8GmJ_i_w" name="aquisicaoSinal_Message0Send" covered="_26e5kBF-EeK1CJ8GmJ_i_w" message="_G_KBoBGAEeK1CJ8GmJ_i_w" event="_G_KosBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_N7SGQBGAEeK1CJ8GmJ_i_w" name="calculafrenagem_Message0Send" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" message="_N7PC8BGAEeK1CJ8GmJ_i_w" event="_N7QREBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Dbr64BGAEeK1CJ8GmJ_i_w" name="get_ind_velocidade_MessageRecv" covered="_26e5kBF-EeK1CJ8GmJ_i_w" message="_DbnCYBGAEeK1CJ8GmJ_i_w" event="_DbqswBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_N7T7cBGAEeK1CJ8GmJ_i_w" name="calculafrenagem_Message0Recv" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" message="_N7PC8BGAEeK1CJ8GmJ_i_w" event="_N7SGQRGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G_QIQBGAEeK1CJ8GmJ_i_w" name="aquisicaoSinal_Message0Recv" covered="_26e5kBF-EeK1CJ8GmJ_i_w" message="_G_KBoBGAEeK1CJ8GmJ_i_w" event="_G_NsABGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HAfeYBGAEeK1CJ8GmJ_i_w" name="BehaviorExecSpec0Start" covered="_26e5kBF-EeK1CJ8GmJ_i_w" execution="_HAgFcBGAEeK1CJ8GmJ_i_w" event="_HAdCIBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_N8kfsBGAEeK1CJ8GmJ_i_w" name="ActionExecSpec0Start" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_N8lGwBGAEeK1CJ8GmJ_i_w" event="_N8hcYBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HAgFcBGAEeK1CJ8GmJ_i_w" name="BehaviorExecSpec0" covered="_26e5kBF-EeK1CJ8GmJ_i_w" finish="_HAgsgBGAEeK1CJ8GmJ_i_w" start="_HAfeYBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_N8lGwBGAEeK1CJ8GmJ_i_w" name="ActionExecSpec0" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" finish="_N8lGwRGAEeK1CJ8GmJ_i_w" start="_N8kfsBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HAgsgBGAEeK1CJ8GmJ_i_w" name="BehaviorExecSpec0Finish" covered="_26e5kBF-EeK1CJ8GmJ_i_w" execution="_HAgFcBGAEeK1CJ8GmJ_i_w" event="_HAeQQBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EN9P4BGBEeK1CJ8GmJ_i_w" name="set_pressao_MessageSend" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" message="_EN6zoBGBEeK1CJ8GmJ_i_w" event="_EN7asBGBEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9xL2MRF_EeK1CJ8GmJ_i_w" name="BehaviorExecSpecFinish" covered="_26e5kBF-EeK1CJ8GmJ_i_w" execution="_9xL2MBF_EeK1CJ8GmJ_i_w" event="_9xKBABF_EeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_N8lGwRGAEeK1CJ8GmJ_i_w" name="ActionExecSpec0Finish" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_N8lGwBGAEeK1CJ8GmJ_i_w" event="_N8jRkBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EN_FEBGBEeK1CJ8GmJ_i_w" name="set_pressao_MessageRecv" covered="_vkDekBF-EeK1CJ8GmJ_i_w" message="_EN6zoBGBEeK1CJ8GmJ_i_w" event="_EN9P4RGBEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ujtxABGAEeK1CJ8GmJ_i_w" name="ActionExecSpec1Start0" covered="_vkDekBF-EeK1CJ8GmJ_i_w" execution="_uju_IBGAEeK1CJ8GmJ_i_w" event="_ujqGoBGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_amisQBMSEeKnTv-cXHxFeQ" name="BehaviorExecSpec1Start" covered="_26e5kBF-EeK1CJ8GmJ_i_w" event="_amdzwBMSEeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9K4EIRF_EeK1CJ8GmJ_i_w" name="ActionExecSpecFinish" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_9K4EIBF_EeK1CJ8GmJ_i_w" event="_9K1A0BF_EeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_uju_IBGAEeK1CJ8GmJ_i_w" name="ActionExecSpec1" covered="_vkDekBF-EeK1CJ8GmJ_i_w" finish="_uju_IRGAEeK1CJ8GmJ_i_w" start="_ujtxABGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_amj6YRMSEeKnTv-cXHxFeQ" name="BehaviorExecSpec1Finish" covered="_26e5kBF-EeK1CJ8GmJ_i_w" event="_amg3EBMSEeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_uju_IRGAEeK1CJ8GmJ_i_w" name="ActionExecSpec1Finish0" covered="_vkDekBF-EeK1CJ8GmJ_i_w" execution="_uju_IBGAEeK1CJ8GmJ_i_w" event="_ujr70BGAEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:InteractionUse" xmi:id="_4KLtMBJKEeKVYLKlaz4YtQ" name="InteractionUse" refersTo="_PGobsP3PEeGsrZs0LXKmlA"/>
+        </operand>
+        <operand xmi:id="_Lnx9IBGBEeK1CJ8GmJ_i_w" name="InteractionOperand0" covered="_KGTgIBF9EeK1CJ8GmJ_i_w _vkDekBF-EeK1CJ8GmJ_i_w _26e5kBF-EeK1CJ8GmJ_i_w">
+          <guard xmi:id="_WWmlYBGDEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_bpwcwBMSEeKnTv-cXHxFeQ" name="ActionExecSpec0Start" covered="_26e5kBF-EeK1CJ8GmJ_i_w" event="_bprkQBMSEeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_MlGnQBMREeKnTv-cXHxFeQ" name="ActionExecSpecStart" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_MlIccBMREeKnTv-cXHxFeQ" event="_MlBuwBMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_bpyR8BMSEeKnTv-cXHxFeQ" name="ActionExecSpec0Finish" covered="_26e5kBF-EeK1CJ8GmJ_i_w" event="_bpunkBMSEeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_MlIccBMREeKnTv-cXHxFeQ" name="ActionExecSpec" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" finish="_MlK4sBMREeKnTv-cXHxFeQ" start="_MlGnQBMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_MlK4sBMREeKnTv-cXHxFeQ" name="ActionExecSpecFinish" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_MlIccBMREeKnTv-cXHxFeQ" event="_MlELABMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:InteractionUse" xmi:id="_rwpbIBI-EeKVYLKlaz4YtQ" name="InteractionUse" refersTo="_PGobsP3PEeGsrZs0LXKmlA"/>
+          <fragment xmi:type="uml:InteractionUse" xmi:id="_A_mOsBJLEeKVYLKlaz4YtQ" name="InteractionUse0" refersTo="_PGobsP3PEeGsrZs0LXKmlA"/>
+        </operand>
+        <operand xmi:id="_RorvoBGBEeK1CJ8GmJ_i_w" name="InteractionOperand1" covered="_KGTgIBF9EeK1CJ8GmJ_i_w _vkDekBF-EeK1CJ8GmJ_i_w _26e5kBF-EeK1CJ8GmJ_i_w">
+          <guard xmi:id="_YsJgcBGDEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_NL2eMBMREeKnTv-cXHxFeQ" name="BehaviorExecSpecStart" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_NL3FQBMREeKnTv-cXHxFeQ" event="_NLyMwBMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_NL3FQBMREeKnTv-cXHxFeQ" name="BehaviorExecSpec" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" finish="_NL3FQRMREeKnTv-cXHxFeQ" start="_NL2eMBMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_NL3FQRMREeKnTv-cXHxFeQ" name="BehaviorExecSpecFinish" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_NL3FQBMREeKnTv-cXHxFeQ" event="_NL0pABMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:InteractionUse" xmi:id="_GpiSsBJLEeKVYLKlaz4YtQ" name="InteractionUse" refersTo="_PGobsP3PEeGsrZs0LXKmlA"/>
+        </operand>
+        <operand xmi:id="_SQldIBGBEeK1CJ8GmJ_i_w" name="InteractionOperand2" covered="_KGTgIBF9EeK1CJ8GmJ_i_w _vkDekBF-EeK1CJ8GmJ_i_w _26e5kBF-EeK1CJ8GmJ_i_w">
+          <guard xmi:id="_bbg0QBGEEeK1CJ8GmJ_i_w"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_OBVUsBMREeKnTv-cXHxFeQ" name="ActionExecSpecStart" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_OBWi0BMREeKnTv-cXHxFeQ" event="_OBSRYBMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_OBWi0BMREeKnTv-cXHxFeQ" name="ActionExecSpec" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" finish="_OBWi0RMREeKnTv-cXHxFeQ" start="_OBVUsBMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_OBWi0RMREeKnTv-cXHxFeQ" name="ActionExecSpecFinish" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_OBWi0BMREeKnTv-cXHxFeQ" event="_OBUGkBMREeKnTv-cXHxFeQ"/>
+          <fragment xmi:type="uml:InteractionUse" xmi:id="_IrnfMBJLEeKVYLKlaz4YtQ" name="InteractionUse" refersTo="_PGobsP3PEeGsrZs0LXKmlA"/>
+        </operand>
+      </fragment>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0s0LUBGCEeK1CJ8GmJ_i_w" name="inicia_Message0Send" covered="_Hid4IBGCEeK1CJ8GmJ_i_w" message="_0sxIABGCEeK1CJ8GmJ_i_w" event="_0syWIBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_vLneUf3TEeGsrZs0LXKmlA" name="ActionExecSpec3" covered="__Ze7cP3QEeGsrZs0LXKmlA" finish="_vLoFYP3TEeGsrZs0LXKmlA" start="_vLneUP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2Jj9UP3SEeGsrZs0LXKmlA" name="inicia_MessageSend" covered="_PM6X8P3REeGsrZs0LXKmlA" message="_2Jfr4P3SEeGsrZs0LXKmlA" event="_2JhhEP3SEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2JmZkP3SEeGsrZs0LXKmlA" name="inicia_MessageRecv" covered="_qx8sMP3PEeGsrZs0LXKmlA" message="_2Jfr4P3SEeGsrZs0LXKmlA" event="_2JlLcP3SEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0s2nkBGCEeK1CJ8GmJ_i_w" name="inicia_Message0Recv" covered="_SZz1IBGCEeK1CJ8GmJ_i_w" message="_0sxIABGCEeK1CJ8GmJ_i_w" event="_0s0yYBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_x2JnYf3SEeGsrZs0LXKmlA" name="ActionExecSpecFinish" covered="_PM6X8P3REeGsrZs0LXKmlA" execution="_x2JnYP3SEeGsrZs0LXKmlA" event="_x2F9AP3SEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NfqScBJKEeKVYLKlaz4YtQ" name="calculafrenagem_Message1Send" covered="_ty4-sBJJEeKVYLKlaz4YtQ" message="_NfmoEBJKEeKVYLKlaz4YtQ" event="_Nfn2MBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_E2WL0RMREeKnTv-cXHxFeQ" name="ActionExecSpec2Finish" covered="_KGTgIBF9EeK1CJ8GmJ_i_w" execution="_E2WL0BMREeKnTv-cXHxFeQ" event="_E2TvkBMREeKnTv-cXHxFeQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CopFkBJKEeKVYLKlaz4YtQ" name="get_ind_velocidade_Message0Recv" covered="_5uSZsBJJEeKVYLKlaz4YtQ" message="_CokNEBJKEeKVYLKlaz4YtQ" event="_Con3cBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_nx2JsRGCEeK1CJ8GmJ_i_w" name="ActionExecSpec4Finish" covered="_Hid4IBGCEeK1CJ8GmJ_i_w" execution="_nx2JsBGCEeK1CJ8GmJ_i_w" event="_nxyfUBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_vLoFYP3TEeGsrZs0LXKmlA" name="ActionExecSpec3Finish" covered="__Ze7cP3QEeGsrZs0LXKmlA" execution="_vLneUf3TEeGsrZs0LXKmlA" event="_vLmQMP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PIncEBGAEeK1CJ8GmJ_i_w" name="ActionExecSpec1Start" covered="_vkDekBF-EeK1CJ8GmJ_i_w" event="_PIjKoBGAEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_NhhToBJKEeKVYLKlaz4YtQ" name="ActionExecSpec9Start" covered="_ty4-sBJJEeKVYLKlaz4YtQ" execution="_Nhh6sBJKEeKVYLKlaz4YtQ" event="_NheQUBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Hfzo0BJKEeKVYLKlaz4YtQ" name="aquisicaoSinal_Message1Send" covered="_5uSZsBJJEeKVYLKlaz4YtQ" message="_Hfv-cBJKEeKVYLKlaz4YtQ" event="_HfxMkBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PIoDIRGAEeK1CJ8GmJ_i_w" name="ActionExecSpec1Finish" covered="_vkDekBF-EeK1CJ8GmJ_i_w" event="_PIk_0BGAEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2KqwkP3SEeGsrZs0LXKmlA" name="ActionExecSpec0Start" covered="_qx8sMP3PEeGsrZs0LXKmlA" execution="_2KrXoP3SEeGsrZs0LXKmlA" event="_2KoUUP3SEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_xWKYkBGCEeK1CJ8GmJ_i_w" name="ActionExecSpec5Start" covered="_SZz1IBGCEeK1CJ8GmJ_i_w" execution="_xWLmsBGCEeK1CJ8GmJ_i_w" event="_xWGHIBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_xWLmsBGCEeK1CJ8GmJ_i_w" name="ActionExecSpec5" covered="_SZz1IBGCEeK1CJ8GmJ_i_w" finish="_xWLmsRGCEeK1CJ8GmJ_i_w" start="_xWKYkBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Hf2sIBJKEeKVYLKlaz4YtQ" name="aquisicaoSinal_Message1Recv" covered="_5uSZsBJJEeKVYLKlaz4YtQ" message="_Hfv-cBJKEeKVYLKlaz4YtQ" event="_Hf0P4BJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Nhh6sBJKEeKVYLKlaz4YtQ" name="ActionExecSpec9" covered="_ty4-sBJJEeKVYLKlaz4YtQ" finish="_Nhh6sRJKEeKVYLKlaz4YtQ" start="_NhhToBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_2KrXoP3SEeGsrZs0LXKmlA" name="ActionExecSpec0" covered="_qx8sMP3PEeGsrZs0LXKmlA" finish="_2KrXof3SEeGsrZs0LXKmlA" start="_vLneUP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Hhm_oBJKEeKVYLKlaz4YtQ" name="ActionExecSpec8Start" covered="_5uSZsBJJEeKVYLKlaz4YtQ" execution="_HhnmsBJKEeKVYLKlaz4YtQ" event="_Hhj8UBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NfsusBJKEeKVYLKlaz4YtQ" name="calculafrenagem_Message1Recv" covered="_ty4-sBJJEeKVYLKlaz4YtQ" message="_NfmoEBJKEeKVYLKlaz4YtQ" event="_NfrgkBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:InteractionUse" xmi:id="_3Un7EBGCEeK1CJ8GmJ_i_w" name="InteractionUse" covered="_SZz1IBGCEeK1CJ8GmJ_i_w" refersTo="_PGobsP3PEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_A_wDwP3TEeGsrZs0LXKmlA" name="ActionExecSpec1Start" covered="_qx8sMP3PEeGsrZs0LXKmlA" event="_A_tngP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_2KrXof3SEeGsrZs0LXKmlA" name="ActionExecSpec0Finish" covered="_qx8sMP3PEeGsrZs0LXKmlA" execution="_2KrXoP3SEeGsrZs0LXKmlA" event="_2KpicP3SEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Nhh6sRJKEeKVYLKlaz4YtQ" name="ActionExecSpec9Finish" covered="_ty4-sBJJEeKVYLKlaz4YtQ" execution="_Nhh6sBJKEeKVYLKlaz4YtQ" event="_NhfecBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_HhnmsBJKEeKVYLKlaz4YtQ" name="ActionExecSpec8" covered="_5uSZsBJJEeKVYLKlaz4YtQ" finish="_HhnmsRJKEeKVYLKlaz4YtQ" start="_Hhm_oBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_xWLmsRGCEeK1CJ8GmJ_i_w" name="ActionExecSpec5Finish" covered="_SZz1IBGCEeK1CJ8GmJ_i_w" execution="_xWLmsBGCEeK1CJ8GmJ_i_w" event="_xWH8UBGCEeK1CJ8GmJ_i_w"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="__WyTQRJJEeKVYLKlaz4YtQ" name="ActionExecSpec7Finish" covered="_5uSZsBJJEeKVYLKlaz4YtQ" execution="__WyTQBJJEeKVYLKlaz4YtQ" event="__WvP8BJJEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_A_wq0f3TEeGsrZs0LXKmlA" name="ActionExecSpec1Finish" covered="_qx8sMP3PEeGsrZs0LXKmlA" event="_A_u1oP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_l24U8BJKEeKVYLKlaz4YtQ" name="set_pressao_Message0Send" covered="_ty4-sBJJEeKVYLKlaz4YtQ" message="_l214sBJKEeKVYLKlaz4YtQ" event="_l22fwBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_-kTGYRJJEeKVYLKlaz4YtQ" name="ActionExecSpec6Finish" covered="_ty4-sBJJEeKVYLKlaz4YtQ" execution="_-kTGYBJJEeKVYLKlaz4YtQ" event="_-kPcABJJEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HhnmsRJKEeKVYLKlaz4YtQ" name="ActionExecSpec8Finish" covered="_5uSZsBJJEeKVYLKlaz4YtQ" execution="_HhnmsBJKEeKVYLKlaz4YtQ" event="_HhlKcBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EGFikP3TEeGsrZs0LXKmlA" name="calculafrenagem_MessageRecv" covered="_qx8sMP3PEeGsrZs0LXKmlA" event="_EGEUcP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_l26KIBJKEeKVYLKlaz4YtQ" name="set_pressao_Message0Recv" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" message="_l214sBJKEeKVYLKlaz4YtQ" event="_l248ABJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_trBmsBJKEeKVYLKlaz4YtQ" name="acionaPressao_Message0Send" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" message="_tq_KcBJKEeKVYLKlaz4YtQ" event="_trAYkBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PfaLQP3TEeGsrZs0LXKmlA" name="ActionExecSpec1Start0" covered="_qx8sMP3PEeGsrZs0LXKmlA" execution="_PfayUP3TEeGsrZs0LXKmlA" event="_PfXvAP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_PfayUP3TEeGsrZs0LXKmlA" name="ActionExecSpec1" covered="_qx8sMP3PEeGsrZs0LXKmlA" finish="_PfayUf3TEeGsrZs0LXKmlA" start="_PfaLQP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ts_VkBJKEeKVYLKlaz4YtQ" name="ActionExecSpec11Start" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" execution="_ttAjsBJKEeKVYLKlaz4YtQ" event="_ts8SQBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_ttAjsBJKEeKVYLKlaz4YtQ" name="ActionExecSpec11" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" finish="_ttAjsRJKEeKVYLKlaz4YtQ" start="_ts_VkBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PfayUf3TEeGsrZs0LXKmlA" name="ActionExecSpec1Finish0" covered="_qx8sMP3PEeGsrZs0LXKmlA" execution="_PfayUP3TEeGsrZs0LXKmlA" event="_PfY9IP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_trEC8BJKEeKVYLKlaz4YtQ" name="acionaPressao_Message0Recv" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" message="_tq_KcBJKEeKVYLKlaz4YtQ" event="_trCNwBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RDS_4P3TEeGsrZs0LXKmlA" name="calculafrenagem_MessageSend" covered="_qx8sMP3PEeGsrZs0LXKmlA" message="_RDRKsP3TEeGsrZs0LXKmlA" event="_RDRxwP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RDU1EP3TEeGsrZs0LXKmlA" name="calculafrenagem_MessageRecv0" covered="_qx8sMP3PEeGsrZs0LXKmlA" message="_RDRKsP3TEeGsrZs0LXKmlA" event="_RDTm8P3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_PmJd0RJKEeKVYLKlaz4YtQ" name="ActionExecSpec10Finish" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" execution="_PmJd0BJKEeKVYLKlaz4YtQ" event="_PmGagBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_ttAjsRJKEeKVYLKlaz4YtQ" name="ActionExecSpec11Finish" covered="_8ZCIsBJJEeKVYLKlaz4YtQ" execution="_ttAjsBJKEeKVYLKlaz4YtQ" event="_ts-HcBJKEeKVYLKlaz4YtQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_REM-0P3TEeGsrZs0LXKmlA" name="ActionExecSpec2Start" covered="_qx8sMP3PEeGsrZs0LXKmlA" execution="_REM-0f3TEeGsrZs0LXKmlA" event="_REJ7gP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_REM-0f3TEeGsrZs0LXKmlA" name="ActionExecSpec2" covered="_qx8sMP3PEeGsrZs0LXKmlA" finish="_RENl4P3TEeGsrZs0LXKmlA" start="_REM-0P3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_RENl4P3TEeGsrZs0LXKmlA" name="ActionExecSpec2Finish" covered="_qx8sMP3PEeGsrZs0LXKmlA" execution="_REM-0f3TEeGsrZs0LXKmlA" event="_RELwsP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vKom4P3TEeGsrZs0LXKmlA" name="aquisicaoSinal_MessageSend" covered="_qx8sMP3PEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__z100P3TEeGsrZs0LXKmlA" name="aquisicaoSinal_MessageSend0" covered="_qx8sMP3PEeGsrZs0LXKmlA" message="__zzYkP3TEeGsrZs0LXKmlA" event="__zz_oP3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TdLL4P3UEeGsrZs0LXKmlA" name="acionaPressao_MessageSend" covered="_qx8sMP3PEeGsrZs0LXKmlA" message="_TdJWsP3UEeGsrZs0LXKmlA" event="_TdJ9wP3UEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__z3C8P3TEeGsrZs0LXKmlA" name="aquisicaoSinal_MessageRecv0" covered="__Ze7cP3QEeGsrZs0LXKmlA" message="__zzYkP3TEeGsrZs0LXKmlA" event="__z100f3TEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TdNBEP3UEeGsrZs0LXKmlA" name="acionaPressao_MessageRecv" covered="_KcfOgP3UEeGsrZs0LXKmlA" message="_TdJWsP3UEeGsrZs0LXKmlA" event="_TdLy8P3UEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6Uu14P3VEeGsrZs0LXKmlA" name="MessageSend" covered="__Ze7cP3QEeGsrZs0LXKmlA" message="_6UtAsP3VEeGsrZs0LXKmlA" event="_6UtnwP3VEeGsrZs0LXKmlA"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6UwrEP3VEeGsrZs0LXKmlA" name="MessageRecv" covered="_qx8sMP3PEeGsrZs0LXKmlA" message="_6UtAsP3VEeGsrZs0LXKmlA" event="_6Uvc8P3VEeGsrZs0LXKmlA"/>
+      <lifeline xmi:id="_qx8sMP3PEeGsrZs0LXKmlA" name="pedal" represents="_518hwf3NEeGsrZs0LXKmlA" coveredBy="_2JmZkP3SEeGsrZs0LXKmlA _2KqwkP3SEeGsrZs0LXKmlA _2KrXof3SEeGsrZs0LXKmlA _2KrXoP3SEeGsrZs0LXKmlA _A_wDwP3TEeGsrZs0LXKmlA _A_wq0f3TEeGsrZs0LXKmlA _EGFikP3TEeGsrZs0LXKmlA _PfaLQP3TEeGsrZs0LXKmlA _PfayUf3TEeGsrZs0LXKmlA _PfayUP3TEeGsrZs0LXKmlA _RDS_4P3TEeGsrZs0LXKmlA _REM-0P3TEeGsrZs0LXKmlA _RENl4P3TEeGsrZs0LXKmlA _REM-0f3TEeGsrZs0LXKmlA _RDU1EP3TEeGsrZs0LXKmlA _vKom4P3TEeGsrZs0LXKmlA __z100P3TEeGsrZs0LXKmlA _TdLL4P3UEeGsrZs0LXKmlA _6UwrEP3VEeGsrZs0LXKmlA"/>
+      <lifeline xmi:id="__Ze7cP3QEeGsrZs0LXKmlA" name="Lifeline" coveredBy="_vKqcEP3TEeGsrZs0LXKmlA _vLneUP3TEeGsrZs0LXKmlA _vLoFYP3TEeGsrZs0LXKmlA _vLneUf3TEeGsrZs0LXKmlA __z3C8P3TEeGsrZs0LXKmlA _6Uu14P3VEeGsrZs0LXKmlA"/>
+      <lifeline xmi:id="_PM6X8P3REeGsrZs0LXKmlA" name="Lifeline0" represents="_5176sP3NEeGsrZs0LXKmlA" coveredBy="_x2JAUP3SEeGsrZs0LXKmlA _x2JnYf3SEeGsrZs0LXKmlA _x2JnYP3SEeGsrZs0LXKmlA _2Jj9UP3SEeGsrZs0LXKmlA"/>
+      <lifeline xmi:id="_KcfOgP3UEeGsrZs0LXKmlA" name="Lifeline1" coveredBy="_TdNBEP3UEeGsrZs0LXKmlA"/>
+      <lifeline xmi:id="_KGTgIBF9EeK1CJ8GmJ_i_w" name="Lifeline2" represents="_518hwf3NEeGsrZs0LXKmlA" coveredBy="_e7oeUBF_EeK1CJ8GmJ_i_w _e7svwBF_EeK1CJ8GmJ_i_w _9K22ABF_EeK1CJ8GmJ_i_w _9K4EIRF_EeK1CJ8GmJ_i_w _9K4EIBF_EeK1CJ8GmJ_i_w _DbqFsBGAEeK1CJ8GmJ_i_w _N7SGQBGAEeK1CJ8GmJ_i_w _N7T7cBGAEeK1CJ8GmJ_i_w _N8kfsBGAEeK1CJ8GmJ_i_w _N8lGwRGAEeK1CJ8GmJ_i_w _N8lGwBGAEeK1CJ8GmJ_i_w _EN9P4BGBEeK1CJ8GmJ_i_w _Lnx9IBGBEeK1CJ8GmJ_i_w _RorvoBGBEeK1CJ8GmJ_i_w _SQldIBGBEeK1CJ8GmJ_i_w _E2VkwBMREeKnTv-cXHxFeQ _E2WL0RMREeKnTv-cXHxFeQ _E2WL0BMREeKnTv-cXHxFeQ _MlGnQBMREeKnTv-cXHxFeQ _MlK4sBMREeKnTv-cXHxFeQ _MlIccBMREeKnTv-cXHxFeQ _NL2eMBMREeKnTv-cXHxFeQ _NL3FQRMREeKnTv-cXHxFeQ _NL3FQBMREeKnTv-cXHxFeQ _OBVUsBMREeKnTv-cXHxFeQ _OBWi0RMREeKnTv-cXHxFeQ _OBWi0BMREeKnTv-cXHxFeQ"/>
+      <lifeline xmi:id="_vkDekBF-EeK1CJ8GmJ_i_w" name="Lifeline3" represents="_DVvdAP3OEeGsrZs0LXKmlA" coveredBy="_PIncEBGAEeK1CJ8GmJ_i_w _PIoDIRGAEeK1CJ8GmJ_i_w _ujtxABGAEeK1CJ8GmJ_i_w _uju_IRGAEeK1CJ8GmJ_i_w _uju_IBGAEeK1CJ8GmJ_i_w _EN_FEBGBEeK1CJ8GmJ_i_w _SQldIBGBEeK1CJ8GmJ_i_w _RorvoBGBEeK1CJ8GmJ_i_w _Lnx9IBGBEeK1CJ8GmJ_i_w _e7svwBF_EeK1CJ8GmJ_i_w _e7oeUBF_EeK1CJ8GmJ_i_w"/>
+      <lifeline xmi:id="_26e5kBF-EeK1CJ8GmJ_i_w" name="Lifeline4" represents="_D51BgP3OEeGsrZs0LXKmlA" coveredBy="_e7oeUBF_EeK1CJ8GmJ_i_w _e7svwBF_EeK1CJ8GmJ_i_w _9xLPIBF_EeK1CJ8GmJ_i_w _9xL2MRF_EeK1CJ8GmJ_i_w _9xL2MBF_EeK1CJ8GmJ_i_w _Dbr64BGAEeK1CJ8GmJ_i_w _G_NE8BGAEeK1CJ8GmJ_i_w _G_QIQBGAEeK1CJ8GmJ_i_w _HAfeYBGAEeK1CJ8GmJ_i_w _HAgsgBGAEeK1CJ8GmJ_i_w _HAgFcBGAEeK1CJ8GmJ_i_w _Lnx9IBGBEeK1CJ8GmJ_i_w _RorvoBGBEeK1CJ8GmJ_i_w _SQldIBGBEeK1CJ8GmJ_i_w _amisQBMSEeKnTv-cXHxFeQ _amj6YRMSEeKnTv-cXHxFeQ _bpwcwBMSEeKnTv-cXHxFeQ _bpyR8BMSEeKnTv-cXHxFeQ"/>
+      <lifeline xmi:id="_Hid4IBGCEeK1CJ8GmJ_i_w" name="Lifeline5" represents="_Jg9CEf3OEeGsrZs0LXKmlA" coveredBy="_nx07kBGCEeK1CJ8GmJ_i_w _nx2JsRGCEeK1CJ8GmJ_i_w _nx2JsBGCEeK1CJ8GmJ_i_w _0s0LUBGCEeK1CJ8GmJ_i_w"/>
+      <lifeline xmi:id="_SZz1IBGCEeK1CJ8GmJ_i_w" name="Lifeline6" represents="_518hwf3NEeGsrZs0LXKmlA" coveredBy="_xWKYkBGCEeK1CJ8GmJ_i_w _xWLmsRGCEeK1CJ8GmJ_i_w _xWLmsBGCEeK1CJ8GmJ_i_w _0s2nkBGCEeK1CJ8GmJ_i_w _3Un7EBGCEeK1CJ8GmJ_i_w"/>
+      <lifeline xmi:id="_ty4-sBJJEeKVYLKlaz4YtQ" name="controle_ABS_lifeline" represents="_518hwf3NEeGsrZs0LXKmlA" coveredBy="_-kR4QBJJEeKVYLKlaz4YtQ _-kTGYRJJEeKVYLKlaz4YtQ _-kTGYBJJEeKVYLKlaz4YtQ _ConQYBJKEeKVYLKlaz4YtQ _NfqScBJKEeKVYLKlaz4YtQ _NhhToBJKEeKVYLKlaz4YtQ _Nhh6sRJKEeKVYLKlaz4YtQ _Nhh6sBJKEeKVYLKlaz4YtQ _l24U8BJKEeKVYLKlaz4YtQ _NfsusBJKEeKVYLKlaz4YtQ"/>
+      <lifeline xmi:id="_5uSZsBJJEeKVYLKlaz4YtQ" name="Lifeline8" represents="_D51BgP3OEeGsrZs0LXKmlA" coveredBy="__WxFIBJJEeKVYLKlaz4YtQ __WyTQRJJEeKVYLKlaz4YtQ __WyTQBJJEeKVYLKlaz4YtQ _CopFkBJKEeKVYLKlaz4YtQ _Hfzo0BJKEeKVYLKlaz4YtQ _Hhm_oBJKEeKVYLKlaz4YtQ _HhnmsRJKEeKVYLKlaz4YtQ _HhnmsBJKEeKVYLKlaz4YtQ _Hf2sIBJKEeKVYLKlaz4YtQ"/>
+      <lifeline xmi:id="_8ZCIsBJJEeKVYLKlaz4YtQ" name="Lifeline9" represents="_DVvdAP3OEeGsrZs0LXKmlA" coveredBy="_PmIPsBJKEeKVYLKlaz4YtQ _PmJd0RJKEeKVYLKlaz4YtQ _PmJd0BJKEeKVYLKlaz4YtQ _l26KIBJKEeKVYLKlaz4YtQ _trBmsBJKEeKVYLKlaz4YtQ _trEC8BJKEeKVYLKlaz4YtQ _ts_VkBJKEeKVYLKlaz4YtQ _ttAjsRJKEeKVYLKlaz4YtQ _ttAjsBJKEeKVYLKlaz4YtQ"/>
+      <message xmi:id="_2Jfr4P3SEeGsrZs0LXKmlA" name="inicia_Message" receiveEvent="_2JmZkP3SEeGsrZs0LXKmlA" sendEvent="_2Jj9UP3SEeGsrZs0LXKmlA"/>
+      <message xmi:id="_RDRKsP3TEeGsrZs0LXKmlA" name="calculafrenagem_Message" receiveEvent="_RDU1EP3TEeGsrZs0LXKmlA" sendEvent="_RDS_4P3TEeGsrZs0LXKmlA"/>
+      <message xmi:id="__zzYkP3TEeGsrZs0LXKmlA" name="aquisicaoSinal_Message" messageSort="asynchCall" receiveEvent="__z3C8P3TEeGsrZs0LXKmlA" sendEvent="__z100P3TEeGsrZs0LXKmlA"/>
+      <message xmi:id="_TdJWsP3UEeGsrZs0LXKmlA" name="acionaPressao_Message" messageSort="asynchCall" receiveEvent="_TdNBEP3UEeGsrZs0LXKmlA" sendEvent="_TdLL4P3UEeGsrZs0LXKmlA"/>
+      <message xmi:id="_6UtAsP3VEeGsrZs0LXKmlA" name="Message" messageSort="reply" receiveEvent="_6UwrEP3VEeGsrZs0LXKmlA" sendEvent="_6Uu14P3VEeGsrZs0LXKmlA"/>
+      <message xmi:id="_DbnCYBGAEeK1CJ8GmJ_i_w" name="get_ind_velocidade_Message" receiveEvent="_Dbr64BGAEeK1CJ8GmJ_i_w" sendEvent="_DbqFsBGAEeK1CJ8GmJ_i_w"/>
+      <message xmi:id="_G_KBoBGAEeK1CJ8GmJ_i_w" name="aquisicaoSinal_Message0" receiveEvent="_G_QIQBGAEeK1CJ8GmJ_i_w" sendEvent="_G_NE8BGAEeK1CJ8GmJ_i_w"/>
+      <message xmi:id="_N7PC8BGAEeK1CJ8GmJ_i_w" name="calculafrenagem_Message0" receiveEvent="_N7T7cBGAEeK1CJ8GmJ_i_w" sendEvent="_N7SGQBGAEeK1CJ8GmJ_i_w"/>
+      <message xmi:id="_EN6zoBGBEeK1CJ8GmJ_i_w" name="set_pressao_Message" receiveEvent="_EN_FEBGBEeK1CJ8GmJ_i_w" sendEvent="_EN9P4BGBEeK1CJ8GmJ_i_w"/>
+      <message xmi:id="_0sxIABGCEeK1CJ8GmJ_i_w" name="inicia_Message0" receiveEvent="_0s2nkBGCEeK1CJ8GmJ_i_w" sendEvent="_0s0LUBGCEeK1CJ8GmJ_i_w"/>
+      <message xmi:id="_CokNEBJKEeKVYLKlaz4YtQ" name="get_ind_velocidade_Message0" messageSort="asynchCall" receiveEvent="_CopFkBJKEeKVYLKlaz4YtQ" sendEvent="_ConQYBJKEeKVYLKlaz4YtQ"/>
+      <message xmi:id="_Hfv-cBJKEeKVYLKlaz4YtQ" name="aquisicaoSinal_Message1" receiveEvent="_Hf2sIBJKEeKVYLKlaz4YtQ" sendEvent="_Hfzo0BJKEeKVYLKlaz4YtQ"/>
+      <message xmi:id="_NfmoEBJKEeKVYLKlaz4YtQ" name="calculafrenagem_Message1" receiveEvent="_NfsusBJKEeKVYLKlaz4YtQ" sendEvent="_NfqScBJKEeKVYLKlaz4YtQ"/>
+      <message xmi:id="_l214sBJKEeKVYLKlaz4YtQ" name="set_pressao_Message0" receiveEvent="_l26KIBJKEeKVYLKlaz4YtQ" sendEvent="_l24U8BJKEeKVYLKlaz4YtQ"/>
+      <message xmi:id="_tq_KcBJKEeKVYLKlaz4YtQ" name="acionaPressao_Message0" receiveEvent="_trEC8BJKEeKVYLKlaz4YtQ" sendEvent="_trBmsBJKEeKVYLKlaz4YtQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zIf_EP3dEeGsrZs0LXKmlA" clientDependency="_IZcqwBJDEeKVYLKlaz4YtQ" name="decomposição do ABS">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_T-TQEP3hEeGsrZs0LXKmlA" name="sensor"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_QglpoBJGEeKVYLKlaz4YtQ" name="fase de computação"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_euxxMBJHEeKVYLKlaz4YtQ" clientDependency="_4Nr8UB3_EeKqHcswjuUliQ" name="composição"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_B_lIEP3eEeGsrZs0LXKmlA" name="Pedal/roda"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zjPKkBF2EeK1CJ8GmJ_i_w" name="sensor_roda_1" memberEnd="_zjPKkRF2EeK1CJ8GmJ_i_w _zjOjgBF2EeK1CJ8GmJ_i_w">
+      <ownedEnd xmi:id="_zjPKkRF2EeK1CJ8GmJ_i_w" name="sensor" type="_nJOj8P3NEeGsrZs0LXKmlA" association="_zjPKkBF2EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zjPKkxF2EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zjPKkhF2EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8fTtsBF2EeK1CJ8GmJ_i_w" name="controle_ABS_monitorar_1" memberEnd="_8fTtsRF2EeK1CJ8GmJ_i_w _8fTGoBF2EeK1CJ8GmJ_i_w">
+      <ownedEnd xmi:id="_8fTtsRF2EeK1CJ8GmJ_i_w" name="controle_ABS" type="_2aBfYP3LEeGsrZs0LXKmlA" association="_8fTtsBF2EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8fTtsxF2EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8fTtshF2EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8fTGoBF2EeK1CJ8GmJ_i_w" name="monitorar" type="_pg1UgP3NEeGsrZs0LXKmlA" association="_8fTtsBF2EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8fTGohF2EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8fTGoRF2EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_g0lLsBF5EeK1CJ8GmJ_i_w" name="sensor_monitorar_1" memberEnd="_g0lLsRF5EeK1CJ8GmJ_i_w _g0kkoBF5EeK1CJ8GmJ_i_w">
+      <ownedEnd xmi:id="_g0lLsRF5EeK1CJ8GmJ_i_w" name="sensor" type="_nJOj8P3NEeGsrZs0LXKmlA" association="_g0lLsBF5EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g0lLsxF5EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g0lLshF5EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_g0kkoBF5EeK1CJ8GmJ_i_w" name="monitorar" type="_pg1UgP3NEeGsrZs0LXKmlA" association="_g0lLsBF5EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g0kkohF5EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g0kkoRF5EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GG0BMBF8EeK1CJ8GmJ_i_w" name="monitorar_atuador_1" memberEnd="_GG0BMRF8EeK1CJ8GmJ_i_w _GGzaIBF8EeK1CJ8GmJ_i_w">
+      <ownedEnd xmi:id="_GG0BMRF8EeK1CJ8GmJ_i_w" name="monitorar" type="_pg1UgP3NEeGsrZs0LXKmlA" association="_GG0BMBF8EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GG0BMxF8EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GG0BMhF8EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_GGzaIBF8EeK1CJ8GmJ_i_w" name="atuador" type="_tJ00cP3NEeGsrZs0LXKmlA" association="_GG0BMBF8EeK1CJ8GmJ_i_w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GGzaIhF8EeK1CJ8GmJ_i_w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GGzaIRF8EeK1CJ8GmJ_i_w" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="__9RhABGEEeK1CJ8GmJ_i_w" name="TimeIntervalMin">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="__9UkUBGEEeK1CJ8GmJ_i_w" name="interMIN" type="_pg1UgP3NEeGsrZs0LXKmlA" value="1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="__9RhARGEEeK1CJ8GmJ_i_w" name="TimeIntervalMax">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="__9UkURGEEeK1CJ8GmJ_i_w" name="interMAX" value="2">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_bManMBEBEdyx6M3BlUjlCQ"/>
+      </expr>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_6TDeQBGGEeK1CJ8GmJ_i_w" name="TimeIntervalMin0">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_6TIWwBGGEeK1CJ8GmJ_i_w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_6TDeQRGGEeK1CJ8GmJ_i_w" name="TimeIntervalMax0">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_6TIWwRGGEeK1CJ8GmJ_i_w" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_2TWpEBI3EeKVYLKlaz4YtQ" name="Motorista"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_BuGOEBI4EeKVYLKlaz4YtQ" name="controle do ABS">
+      <ownedUseCase xmi:id="_4SdaEBI3EeKVYLKlaz4YtQ" name="Frenar"/>
+      <ownedUseCase xmi:id="_4kdwEBI3EeKVYLKlaz4YtQ" name="Monitorar sensores " subject="_pg1UgP3NEeGsrZs0LXKmlA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_HV1SoBI4EeKVYLKlaz4YtQ" name="ECU"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LxRjMBI4EeKVYLKlaz4YtQ" name="A_ecu_monitorar sensores " memberEnd="_LxRjMRI4EeKVYLKlaz4YtQ _LxRjNBI4EeKVYLKlaz4YtQ">
+      <ownedEnd xmi:id="_LxRjMRI4EeKVYLKlaz4YtQ" name="ecu" type="_HV1SoBI4EeKVYLKlaz4YtQ" association="_LxRjMBI4EeKVYLKlaz4YtQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LxRjMxI4EeKVYLKlaz4YtQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxRjMhI4EeKVYLKlaz4YtQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_LxRjNBI4EeKVYLKlaz4YtQ" name="monitorar sensores " type="_4kdwEBI3EeKVYLKlaz4YtQ" association="_LxRjMBI4EeKVYLKlaz4YtQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LxRjNhI4EeKVYLKlaz4YtQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxRjNRI4EeKVYLKlaz4YtQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NtszoBI4EeKVYLKlaz4YtQ" name="A_frenar_motorista" memberEnd="_NttasBI4EeKVYLKlaz4YtQ _NttasxI4EeKVYLKlaz4YtQ">
+      <ownedEnd xmi:id="_NttasBI4EeKVYLKlaz4YtQ" name="frenar" type="_4SdaEBI3EeKVYLKlaz4YtQ" association="_NtszoBI4EeKVYLKlaz4YtQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NttashI4EeKVYLKlaz4YtQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NttasRI4EeKVYLKlaz4YtQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_NttasxI4EeKVYLKlaz4YtQ" name="motorista" type="_2TWpEBI3EeKVYLKlaz4YtQ" association="_NtszoBI4EeKVYLKlaz4YtQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NttatRI4EeKVYLKlaz4YtQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NttatBI4EeKVYLKlaz4YtQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_giojMBJBEeKVYLKlaz4YtQ" name="Controle_ABS"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_IZcqwBJDEeKVYLKlaz4YtQ" name="Derive" client="_zIf_EP3dEeGsrZs0LXKmlA" supplier="_giojMBJBEeKVYLKlaz4YtQ">
+      <mapping xmi:id="_QBGYoBJDEeKVYLKlaz4YtQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_I24P0BJSEeKVYLKlaz4YtQ" name="TimeIntervalMin1">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_I276MBJSEeKVYLKlaz4YtQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_I24P0RJSEeKVYLKlaz4YtQ" name="TimeIntervalMax1">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_I276MRJSEeKVYLKlaz4YtQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_c1uHYBJTEeKVYLKlaz4YtQ" name="TimeIntervalMin2">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_c1xxwBJTEeKVYLKlaz4YtQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_c1uHYRJTEeKVYLKlaz4YtQ" name="TimeIntervalMax2">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_c1yY0BJTEeKVYLKlaz4YtQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_wvkooBMBEeKnTv-cXHxFeQ" name="TimeIntervalMin3">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_wvphIBMBEeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_wvkooRMBEeKnTv-cXHxFeQ" name="TimeIntervalMax3">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_wvqIMBMBEeKnTv-cXHxFeQ" name="B-A" value="5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_kVmT4BMEEeKnTv-cXHxFeQ" name="DurationIntervalMin">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_kVp-QBMEEeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_kVmT4RMEEeKnTv-cXHxFeQ" name="DurationIntervalMax">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_kVp-QRMEEeKnTv-cXHxFeQ" name="" value="2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_Sdf0cBMFEeKnTv-cXHxFeQ" name="DurationIntervalMin0">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_Sdje0BMFEeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_SdgbgBMFEeKnTv-cXHxFeQ" name="DurationIntervalMax0">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_SdkF4BMFEeKnTv-cXHxFeQ" name="" value="1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_2mqbABMFEeKnTv-cXHxFeQ" name="DurationIntervalMin1">
+      <expr xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PwK2EBMGEeKnTv-cXHxFeQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_2mqbARMFEeKnTv-cXHxFeQ" name="DurationIntervalMax1">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_evL1QBMVEeKnTv-cXHxFeQ" name="" value="2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_gK_3gBMLEeKnTv-cXHxFeQ" name="DurationIntervalMin2">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_gLC60BMLEeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_gK_3gRMLEeKnTv-cXHxFeQ" name="DurationIntervalMax2">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_gLDh4BMLEeKnTv-cXHxFeQ" name="" value="3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_qm85ABMLEeKnTv-cXHxFeQ" name="DurationIntervalMin3">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_qnBKcBMLEeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_qm85ARMLEeKnTv-cXHxFeQ" name="DurationIntervalMax3">
+      <expr xmi:type="uml:LiteralString" xmi:id="_twjHMBMLEeKnTv-cXHxFeQ" name="" value="0,5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DurationObservation" xmi:id="_S22rcBMMEeKnTv-cXHxFeQ" name="d"/>
+    <packagedElement xmi:type="uml:DurationObservation" xmi:id="_TQ6xQBMMEeKnTv-cXHxFeQ" name="d0"/>
+    <packagedElement xmi:type="uml:DurationObservation" xmi:id="_T4cEQBMMEeKnTv-cXHxFeQ" name="d1"/>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_N4Tb4BMOEeKnTv-cXHxFeQ" name="TimeIntervalMin4">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_N4XtUBMOEeKnTv-cXHxFeQ" name=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_N4Tb4RMOEeKnTv-cXHxFeQ" name="TimeIntervalMax4">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_N4YUYBMOEeKnTv-cXHxFeQ" name="" value="2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_xTxkEBMQEeKnTv-cXHxFeQ" name="DurationIntervalMin4">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_xT2ckBMQEeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_xTxkERMQEeKnTv-cXHxFeQ" name="DurationIntervalMax4" type="__Ltu0BMREeKnTv-cXHxFeQ">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_xT3DoBMQEeKnTv-cXHxFeQ" name="" value="3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_GkBOkBMREeKnTv-cXHxFeQ" name="DurationIntervalMin5">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_GkE48BMREeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_GkBOkRMREeKnTv-cXHxFeQ" name="DurationIntervalMax5">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_GkFgABMREeKnTv-cXHxFeQ" name="" value="2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_P3pWEBMREeKnTv-cXHxFeQ" name="DurationIntervalMin6">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_P3u1oBMREeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_P3pWERMREeKnTv-cXHxFeQ" name="DurationIntervalMax6">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_P3u1oRMREeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_SI_GkBMREeKnTv-cXHxFeQ" name="DurationIntervalMin7">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_SJD_EBMREeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_SI_GkRMREeKnTv-cXHxFeQ" name="DurationIntervalMax7">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_SJD_ERMREeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_TNB9gBMREeKnTv-cXHxFeQ" name="DurationIntervalMin8">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_TNFn4BMREeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Duration" xmi:id="_TNCkkBMREeKnTv-cXHxFeQ" name="DurationIntervalMax8">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_TNGO8BMREeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_wtb1cBMTEeKnTv-cXHxFeQ" name="TimeIntervalMin5">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_wtgt8BMTEeKnTv-cXHxFeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:TimeExpression" xmi:id="_wtb1cRMTEeKnTv-cXHxFeQ" name="TimeIntervalMax5">
+      <expr xmi:type="uml:LiteralInteger" xmi:id="_wthVABMTEeKnTv-cXHxFeQ" name="execução a cada" value="5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JsAp0B3_EeKqHcswjuUliQ" clientDependency="_XBvU0B3_EeKqHcswjuUliQ" name="requisito_satisfeito"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_XBvU0B3_EeKqHcswjuUliQ" name="Satisfy1" client="_JsAp0B3_EeKqHcswjuUliQ" supplier="_QglpoBJGEeKVYLKlaz4YtQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sm9JwB3_EeKqHcswjuUliQ" clientDependency="_tob04B3_EeKqHcswjuUliQ" name="requisito_copia"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_tob04B3_EeKqHcswjuUliQ" name="Copy1" client="_sm9JwB3_EeKqHcswjuUliQ" supplier="_JsAp0B3_EeKqHcswjuUliQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4Nr8UB3_EeKqHcswjuUliQ" name="verificacao" client="_euxxMBJHEeKVYLKlaz4YtQ" supplier="_JsAp0B3_EeKqHcswjuUliQ"/>
+    <profileApplication xmi:id="_rYBKgP3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rYBKgf3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbWyYP3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbWyYf3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbWyYv3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbWyY_3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbWyZP3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbWyZf3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbWyZv3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbWyZ_3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbXZcP3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbXZcf3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbXZcv3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbXZc_3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbXZdP3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbXZdf3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbYAgP3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbYAgf3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbYAgv3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbYAg_3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rbYAhP3LEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_rbYAhf3LEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m8Ul0P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m8mSoP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_zaC5cAPHEdyeNfbOYuD9pg"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m8mSof3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m9HQAP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//NFPs"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_U_GAoAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m9H3EP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m9j78P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//Time"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_WStkoAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m9j78f3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m90aoP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//GRM"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_XVWGUAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m91BsP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m-E5UP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//Alloc"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ar8OsAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m-E5Uf3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m-UJ4P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//CoreElements"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_-wEewECLEd6UTJZnztgOLw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m-Uw8P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m-kokP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HLAM"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_yNSZIAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m-kokf3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m-z5IP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwComputing"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_aMhZsBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m-0gMP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m_DJsP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwCommunication"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_bmL7UBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m_DwwP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m_SaQP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwTiming"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_dG2c0BJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m_SaQf3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m_hq0P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwDevice"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ja8REBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m_iR4P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m_wUUP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwMemory"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_gHI-ABJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m_w7YP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_m__k4P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwStorageManager"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_hst0sBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m__k4f3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nAOOYP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_b8cHKbG3Ed-tmN4hwNCxXQ"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_ZJjPoEIbEd6dmI2dd6jVFQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nAO1cP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nAc34P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_b72RYbG3Ed-tmN4hwNCxXQ"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_P80EcBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nAde8P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nArhYP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwLayout"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_uAf6gBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nArhYf3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nA5j0P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwPower"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_vrbyUBJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nA6K4P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nBNF0P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_b8l4qLG3Ed-tmN4hwNCxXQ"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_R7sL8BJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nBNs4P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nBdkgP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//HwGeneral"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_WGZ44BJwEdygQ5HMNSpiZw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nBdkgf3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nBsOAP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_b72RX7G3Ed-tmN4hwNCxXQ"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_2dtsgAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nBs1EP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nB63gP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//SW_ResourceCore"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_-1fcUBJdEdy3Td9UhuLFPg"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nB7ekP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nCL9QP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//SW_Concurrency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_A_vtYBJeEdy3Td9UhuLFPg"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nCMkUP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nCamwP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//SW_Brokering"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_Cf874BJeEdy3Td9UhuLFPg"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nCbN0P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nCp3UP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//SW_Interaction"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_EIfnABJeEdy3Td9UhuLFPg"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nCqeYP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nC4g0P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_b9oZ5rG3Ed-tmN4hwNCxXQ"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_3VS0wAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nC5H4P3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nDHxYP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//GCM"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_YgAioAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nDIYcP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nDXB8P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//GQAM"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_4bV20APMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nDXpAP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nDlrcP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//SAM"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_5ZCOIAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nDmSgP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nD0U8P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//PAM"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_6c2bkAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nD0U8f3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nEC-cP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//RSM"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_DIIJoAPNEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nEDlgP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nESPAP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//DataTypes"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9FdqwA-MEdyLh7muGbCqMw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nESPAf3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nEg4gP3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//Variables"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_9UgzYA-MEdyLh7muGbCqMw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nEg4gf3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nEu68P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//Operators"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_jg_Z8PfhEd-f4r3MXmUB9g"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nEviAP3MEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_nFBO0P3MEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_b-riAbG3Ed-tmN4hwNCxXQ"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://Papyrus_PROFILES/MARTE.profile.uml#_CHiIYA-LEdyNj8xzjk-DoA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_eHv3MP3fEeGsrZs0LXKmlA">
+      <eAnnotations xmi:id="_eIFOYP3fEeGsrZs0LXKmlA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/4.0.0/UML/Profile/L2#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_x2EH0P3SEeGsrZs0LXKmlA" name="ExecutionEvent"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_x2F9AP3SEeGsrZs0LXKmlA" name="ExecutionEvent0"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_2JhhEP3SEeGsrZs0LXKmlA" name="SendOperationEvent" operation="_BOJMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_2JlLcP3SEeGsrZs0LXKmlA" name="ReceiveOperationEvent" operation="_BOJMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_2KoUUP3SEeGsrZs0LXKmlA" name="ExecutionEvent1"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_2KpicP3SEeGsrZs0LXKmlA" name="ExecutionEvent2"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_A_tngP3TEeGsrZs0LXKmlA" name="ExecutionEvent3"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_A_u1oP3TEeGsrZs0LXKmlA" name="ExecutionEvent4"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_EGEUcP3TEeGsrZs0LXKmlA" name="ReceiveOperationEvent0" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_PfXvAP3TEeGsrZs0LXKmlA" name="ExecutionEvent5"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_PfY9IP3TEeGsrZs0LXKmlA" name="ExecutionEvent6"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_RDRxwP3TEeGsrZs0LXKmlA" name="SendOperationEvent0" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_RDTm8P3TEeGsrZs0LXKmlA" name="ReceiveOperationEvent1" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_REJ7gP3TEeGsrZs0LXKmlA" name="ExecutionEvent7"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_RELwsP3TEeGsrZs0LXKmlA" name="ExecutionEvent8"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_vKpN8P3TEeGsrZs0LXKmlA" name="ReceiveOperationEvent2" operation="_P3pMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_vLkbAP3TEeGsrZs0LXKmlA" name="ExecutionEvent9"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_vLmQMP3TEeGsrZs0LXKmlA" name="ExecutionEvent10"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="__zz_oP3TEeGsrZs0LXKmlA" name="SendOperationEvent1" operation="_P3pMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="__z100f3TEeGsrZs0LXKmlA" name="ReceiveOperationEvent3" operation="_P3pMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_TdJ9wP3UEeGsrZs0LXKmlA" name="SendOperationEvent2" operation="_Ef4qAP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_TdLy8P3UEeGsrZs0LXKmlA" name="ReceiveOperationEvent4" operation="_Ef4qAP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_6UtnwP3VEeGsrZs0LXKmlA" name="SendOperationEvent3"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_6Uvc8P3VEeGsrZs0LXKmlA" name="ReceiveOperationEvent5" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_9KzLoBF_EeK1CJ8GmJ_i_w" name="ExecutionEvent15"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_9K1A0BF_EeK1CJ8GmJ_i_w" name="ExecutionEvent16"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_9xHkwBF_EeK1CJ8GmJ_i_w" name="ExecutionEvent17"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_9xKBABF_EeK1CJ8GmJ_i_w" name="ExecutionEvent18"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_DboQgBGAEeK1CJ8GmJ_i_w" name="SendOperationEvent5" operation="_I-VFEBF1EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_DbqswBGAEeK1CJ8GmJ_i_w" name="ReceiveOperationEvent7" operation="_I-VFEBF1EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_G_KosBGAEeK1CJ8GmJ_i_w" name="SendOperationEvent6" operation="_P3pMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_G_NsABGAEeK1CJ8GmJ_i_w" name="ReceiveOperationEvent8" operation="_P3pMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_HAdCIBGAEeK1CJ8GmJ_i_w" name="ExecutionEvent19"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_HAeQQBGAEeK1CJ8GmJ_i_w" name="ExecutionEvent20"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_N7QREBGAEeK1CJ8GmJ_i_w" name="SendOperationEvent7" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_N7SGQRGAEeK1CJ8GmJ_i_w" name="ReceiveOperationEvent9" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_N8hcYBGAEeK1CJ8GmJ_i_w" name="ExecutionEvent21"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_N8jRkBGAEeK1CJ8GmJ_i_w" name="ExecutionEvent22"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_PIjKoBGAEeK1CJ8GmJ_i_w" name="ExecutionEvent23"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_PIk_0BGAEeK1CJ8GmJ_i_w" name="ExecutionEvent24"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_ujqGoBGAEeK1CJ8GmJ_i_w" name="ExecutionEvent25"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_ujr70BGAEeK1CJ8GmJ_i_w" name="ExecutionEvent26"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_EN7asBGBEeK1CJ8GmJ_i_w" name="SendOperationEvent8" operation="_BP-OEBF8EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_EN9P4RGBEeK1CJ8GmJ_i_w" name="ReceiveOperationEvent10" operation="_BP-OEBF8EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_nxwqIBGCEeK1CJ8GmJ_i_w" name="ExecutionEvent27"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_nxyfUBGCEeK1CJ8GmJ_i_w" name="ExecutionEvent28"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_xWGHIBGCEeK1CJ8GmJ_i_w" name="ExecutionEvent29"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_xWH8UBGCEeK1CJ8GmJ_i_w" name="ExecutionEvent30"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_0syWIBGCEeK1CJ8GmJ_i_w" name="SendOperationEvent9" operation="_BOJMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_0s0yYBGCEeK1CJ8GmJ_i_w" name="ReceiveOperationEvent11" operation="_BOJMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_-kM_wBJJEeKVYLKlaz4YtQ" name="ExecutionEvent31"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_-kPcABJJEeKVYLKlaz4YtQ" name="ExecutionEvent32"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="__WszsBJJEeKVYLKlaz4YtQ" name="ExecutionEvent33"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="__WvP8BJJEeKVYLKlaz4YtQ" name="ExecutionEvent34"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ColbMBJKEeKVYLKlaz4YtQ" name="SendOperationEvent10" operation="_I-VFEBF1EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Con3cBJKEeKVYLKlaz4YtQ" name="ReceiveOperationEvent12" operation="_I-VFEBF1EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_HfxMkBJKEeKVYLKlaz4YtQ" name="SendOperationEvent11" operation="_P3pMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Hf0P4BJKEeKVYLKlaz4YtQ" name="ReceiveOperationEvent13" operation="_P3pMcP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_Hhj8UBJKEeKVYLKlaz4YtQ" name="ExecutionEvent35"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_HhlKcBJKEeKVYLKlaz4YtQ" name="ExecutionEvent36"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Nfn2MBJKEeKVYLKlaz4YtQ" name="SendOperationEvent12" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_NfrgkBJKEeKVYLKlaz4YtQ" name="ReceiveOperationEvent14" operation="_gL4P8P3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_NheQUBJKEeKVYLKlaz4YtQ" name="ExecutionEvent37"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_NhfecBJKEeKVYLKlaz4YtQ" name="ExecutionEvent38"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_PmDXMBJKEeKVYLKlaz4YtQ" name="ExecutionEvent39"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_PmGagBJKEeKVYLKlaz4YtQ" name="ExecutionEvent40"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_l22fwBJKEeKVYLKlaz4YtQ" name="SendOperationEvent13" operation="_BP-OEBF8EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_l248ABJKEeKVYLKlaz4YtQ" name="ReceiveOperationEvent15" operation="_BP-OEBF8EeK1CJ8GmJ_i_w"/>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_trAYkBJKEeKVYLKlaz4YtQ" name="SendOperationEvent14" operation="_Ef4qAP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_trCNwBJKEeKVYLKlaz4YtQ" name="ReceiveOperationEvent16" operation="_Ef4qAP3QEeGsrZs0LXKmlA"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_ts8SQBJKEeKVYLKlaz4YtQ" name="ExecutionEvent41"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_ts-HcBJKEeKVYLKlaz4YtQ" name="ExecutionEvent42"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_E2R6YBMREeKnTv-cXHxFeQ" name="ExecutionEvent43"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_E2TvkBMREeKnTv-cXHxFeQ" name="ExecutionEvent44"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_MlBuwBMREeKnTv-cXHxFeQ" name="ExecutionEvent45"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_MlELABMREeKnTv-cXHxFeQ" name="ExecutionEvent46"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_NLyMwBMREeKnTv-cXHxFeQ" name="ExecutionEvent47"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_NL0pABMREeKnTv-cXHxFeQ" name="ExecutionEvent48"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OBSRYBMREeKnTv-cXHxFeQ" name="ExecutionEvent49"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OBUGkBMREeKnTv-cXHxFeQ" name="ExecutionEvent50"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_amdzwBMSEeKnTv-cXHxFeQ" name="ExecutionEvent51"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_amg3EBMSEeKnTv-cXHxFeQ" name="ExecutionEvent52"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_bprkQBMSEeKnTv-cXHxFeQ" name="ExecutionEvent53"/>
+    <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_bpunkBMSEeKnTv-cXHxFeQ" name="ExecutionEvent54"/>
+  </uml:Model>
+  <HLAM:RtUnit xmi:id="_iBAF4P3NEeGsrZs0LXKmlA" base_BehavioredClassifier="_2aBfYP3LEeGsrZs0LXKmlA"/>
+  <Time:ClockType xmi:id="_phLSwP3NEeGsrZs0LXKmlA" base_Class="_pg1UgP3NEeGsrZs0LXKmlA"/>
+  <GRM:DeviceResource xmi:id="_08CzkP3NEeGsrZs0LXKmlA" base_Classifier="_wY4xcP3NEeGsrZs0LXKmlA"/>
+  <GRM:DeviceResource xmi:id="_3oz70P3NEeGsrZs0LXKmlA" base_Classifier="_wmnrcP3NEeGsrZs0LXKmlA"/>
+  <Time:ClockType xmi:id="_G-qrgP3OEeGsrZs0LXKmlA" base_Class="_G-WicP3OEeGsrZs0LXKmlA"/>
+  <GRM:DeviceResource xmi:id="_fvk5AP3REeGsrZs0LXKmlA" base_Lifeline="_PM6X8P3REeGsrZs0LXKmlA"/>
+  <Variables:ExpressionContext xmi:id="_c2PiIP3WEeGsrZs0LXKmlA" base_NamedElement="_2KrXoP3SEeGsrZs0LXKmlA"/>
+  <Requirements:Requirement xmi:id="_zIsMUP3dEeGsrZs0LXKmlA" text="O ABS é constituido de 4 sensores, 4 atuadores e uma fase de computação" id="2" base_Class="_zIf_EP3dEeGsrZs0LXKmlA"/>
+  <Requirements:Requirement xmi:id="_B_xVUP3eEeGsrZs0LXKmlA" text="" id="3" base_Class="_B_lIEP3eEeGsrZs0LXKmlA"/>
+  <Requirements:Requirement xmi:id="_T-rqkP3hEeGsrZs0LXKmlA" text="O sensor deve ser computado em um atraso de 3ms e em 2ms as saídas estão estáveis" id="3" base_Class="_T-TQEP3hEeGsrZs0LXKmlA"/>
+  <Variables:ExpressionContext xmi:id="_iLIG4BGEEeK1CJ8GmJ_i_w" base_NamedElement="_9K4EIBF_EeK1CJ8GmJ_i_w"/>
+  <Variables:ExpressionContext xmi:id="_OcbSMBGFEeK1CJ8GmJ_i_w" base_NamedElement="__9MogBGEEeK1CJ8GmJ_i_w"/>
+  <Time:ClockConstraint xmi:id="_gUqCkBGGEeK1CJ8GmJ_i_w" base_Constraint="__9MogBGEEeK1CJ8GmJ_i_w"/>
+  <Requirements:Requirement xmi:id="_gjXjABJBEeKVYLKlaz4YtQ" text="a função ABS calcula a pressão do freio de acordo com a rotação de cada roda. Esta função deve ser calculada a cada 5 ms e deve estar estável em 1 ms " id="1" base_Class="_giojMBJBEeKVYLKlaz4YtQ"/>
+  <Requirements:DeriveReqt xmi:id="_IaMRoBJDEeKVYLKlaz4YtQ" base_Abstraction="_IZcqwBJDEeKVYLKlaz4YtQ"/>
+  <Requirements:Requirement xmi:id="_QhFY4BJGEeKVYLKlaz4YtQ" text="A execução do ABS pode ser computada em um delay de 5 ms e os valores estabilizados em =- 2 ms" id="4" base_Class="_QglpoBJGEeKVYLKlaz4YtQ"/>
+  <Requirements:Requirement xmi:id="_evRgcBJHEeKVYLKlaz4YtQ" text="Os valores dos sensores e dos atuadores devem ser produzidos em um delay de 0,5 ms" id="5" base_Class="_euxxMBJHEeKVYLKlaz4YtQ"/>
+  <Time:TimedInstantObservation xmi:id="_p6da8BJREeKVYLKlaz4YtQ"/>
+  <Time:TimedConstraint xmi:id="_tj2uEBJSEeKVYLKlaz4YtQ"/>
+  <Time:TimedConstraint xmi:id="_C5HNoBMSEeKnTv-cXHxFeQ" base_Constraint="_GkAAcBMREeKnTv-cXHxFeQ"/>
+  <Time:TimedConstraint xmi:id="_C1yakBMXEeKnTv-cXHxFeQ" base_Constraint="_Avtw0BMVEeKnTv-cXHxFeQ"/>
+  <Time:TimedConstraint xmi:id="_rFeKkBMXEeKnTv-cXHxFeQ" base_Constraint="_xTwV8BMQEeKnTv-cXHxFeQ"/>
+  <Requirements:Requirement xmi:id="_Jsr_QB3_EeKqHcswjuUliQ" base_Class="_JsAp0B3_EeKqHcswjuUliQ"/>
+  <Requirements:Satisfy xmi:id="_XB4ewB3_EeKqHcswjuUliQ" base_Abstraction="_XBvU0B3_EeKqHcswjuUliQ"/>
+  <Requirements:Requirement xmi:id="_snFFkB3_EeKqHcswjuUliQ" base_Class="_sm9JwB3_EeKqHcswjuUliQ"/>
+  <Requirements:Copy xmi:id="_torsgB3_EeKqHcswjuUliQ" base_Abstraction="_tob04B3_EeKqHcswjuUliQ"/>
+  <Requirements:Verify xmi:id="_4N1GQB3_EeKqHcswjuUliQ" base_Abstraction="_4Nr8UB3_EeKqHcswjuUliQ"/>
+</xmi:XMI>

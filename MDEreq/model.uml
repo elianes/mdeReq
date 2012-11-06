@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+  <uml:Model xmi:id="_mqSLQCLGEeKGhJK1JCuf1w" name="SysMLmodel">
+    <packagedElement xmi:type="uml:Class" xmi:id="_q1gOgCLGEeKGhJK1JCuf1w" clientDependency="_xv_7cCLGEeKGhJK1JCuf1w" name="Requirement1">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_sa7UMCLGEeKGhJK1JCuf1w" name="Requirement2"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_sy9ZsCLGEeKGhJK1JCuf1w" name="Requirement3"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_tHjwsCLGEeKGhJK1JCuf1w" name="Requirement4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uVTWMCLGEeKGhJK1JCuf1w" clientDependency="_yd-bwCLGEeKGhJK1JCuf1w" name="Requirement5"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_unJ7MCLGEeKGhJK1JCuf1w" clientDependency="_0_L0QCLGEeKGhJK1JCuf1w" name="Requirement6"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vCPUsCLGEeKGhJK1JCuf1w" clientDependency="_zmEsQCLGEeKGhJK1JCuf1w" name="Requirement7"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vX1KMCLGEeKGhJK1JCuf1w" clientDependency="_0Eg7wCLGEeKGhJK1JCuf1w" name="Requirement8"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_xv_7cCLGEeKGhJK1JCuf1w" name="Copy1" client="_q1gOgCLGEeKGhJK1JCuf1w" supplier="_uVTWMCLGEeKGhJK1JCuf1w"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_yd-bwCLGEeKGhJK1JCuf1w" name="DeriveReqt1" client="_uVTWMCLGEeKGhJK1JCuf1w" supplier="_unJ7MCLGEeKGhJK1JCuf1w"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_zmEsQCLGEeKGhJK1JCuf1w" name="Satisfy1" client="_vCPUsCLGEeKGhJK1JCuf1w" supplier="_sy9ZsCLGEeKGhJK1JCuf1w"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_0Eg7wCLGEeKGhJK1JCuf1w" name="Verify1" client="_vX1KMCLGEeKGhJK1JCuf1w" supplier="_sa7UMCLGEeKGhJK1JCuf1w"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_0_L0QCLGEeKGhJK1JCuf1w" name="Satisfy2" client="_unJ7MCLGEeKGhJK1JCuf1w" supplier="_tHjwsCLGEeKGhJK1JCuf1w"/>
+    <profileApplication xmi:id="_mxcjMCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_mxeYYCLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1k1QCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1k1QSLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1nRgCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1nRgSLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1nRgiLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1nRgyLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1n4kCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1n4kSLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1n4kiLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1n4kyLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1n4lCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1n4lSLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1ofoCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1ofoSLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1ofoiLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1ofoyLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1ofpCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1ofpSLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_m1pGsCLGEeKGhJK1JCuf1w">
+      <eAnnotations xmi:id="_m1pGsSLGEeKGhJK1JCuf1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_rBYuYCLGEeKGhJK1JCuf1w" base_Class="_q1gOgCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Requirement xmi:id="_sbAzwCLGEeKGhJK1JCuf1w" base_Class="_sa7UMCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Requirement xmi:id="_szCSMCLGEeKGhJK1JCuf1w" base_Class="_sy9ZsCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Requirement xmi:id="_tHopMCLGEeKGhJK1JCuf1w" base_Class="_tHjwsCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Requirement xmi:id="_uVYOsCLGEeKGhJK1JCuf1w" base_Class="_uVTWMCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Requirement xmi:id="_unOMoCLGEeKGhJK1JCuf1w" base_Class="_unJ7MCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Requirement xmi:id="_vCTmICLGEeKGhJK1JCuf1w" base_Class="_vCPUsCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Requirement xmi:id="_vX5boCLGEeKGhJK1JCuf1w" base_Class="_vX1KMCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Copy xmi:id="_xwS2YCLGEeKGhJK1JCuf1w" base_Abstraction="_xv_7cCLGEeKGhJK1JCuf1w"/>
+  <Requirements:DeriveReqt xmi:id="_yeDUQCLGEeKGhJK1JCuf1w" base_Abstraction="_yd-bwCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Satisfy xmi:id="_zmI9sCLGEeKGhJK1JCuf1w" base_Abstraction="_zmEsQCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Verify xmi:id="_0ElNMCLGEeKGhJK1JCuf1w" base_Abstraction="_0Eg7wCLGEeKGhJK1JCuf1w"/>
+  <Requirements:Satisfy xmi:id="_0_QFsCLGEeKGhJK1JCuf1w" base_Abstraction="_0_L0QCLGEeKGhJK1JCuf1w"/>
+</xmi:XMI>
